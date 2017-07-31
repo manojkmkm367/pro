@@ -23,14 +23,14 @@ public static void main(String args[])throws IOException
 			if((a==b)&&(a1==b1))
 			{
 				 flag=1;
-					System.out.println("substring of A is substring of B");
+					System.out.println("A is substring of B");
 				System.exit(0);
 				}
 		}	
 	}
 			if(flag==0)
 			{
-				System.out.println("No sub strings present");
+				System.out.println("No substrings present here");
 				
 			}
       }
