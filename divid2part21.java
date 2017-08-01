@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class divid2part21 {
-	public static void main(String argh[])throws Exception
+public static void main(String argh[])throws Exception
 	{
 	Scanner in=new Scanner(System.in);
 	System.out.println("Enter the size of array");
@@ -25,7 +25,14 @@ public class divid2part21 {
 	}
 	s1=sum1/(n1+1); s=sum/n1;
 	if(s1==s)
-	System.out.println("Possible");
+	{System.out.println("Possible");
+	for(i=0;i<=n1;i++)
+		System.out.print(num[i]+" ");
+	System.out.print(",");
+	for(i=n1+1;i<n;i++)
+		System.out.print(num[i]+" ");
+	
+	}
 	else
 	System.out.println("Not Possible");
 	}
